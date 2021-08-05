@@ -1,0 +1,32 @@
+{
+   "$schema":"http://json-schema.org/draft-04/schema#",
+   "type":"object",
+   "properties":{
+      "clli":{
+         "type":"string",
+         "minLength":1
+      },
+      "scp":{
+         "type":"string",
+         "minLength":1
+      },
+      "deviceIP":{
+         "type":"string",
+         "oneOf":[
+            {
+               "format":"ipv4"
+            }
+         ]
+      },
+      "cuid":{
+         "type":"string"
+      },
+      "serviceOrder":{
+         "type":"string"
+      }
+   },
+   "required":[
+      "clli",
+      "scp"
+   ]
+}

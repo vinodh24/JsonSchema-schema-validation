@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "voice": {
+      "type": "object",
+      "properties": {
+        "additionalParams": {
+          "type": "object",
+          "properties": {
+            "sTag": {
+              "type": "string",
+			  "minLength":1
+            },
+            "voiceSlanXlateId": {
+              "type": "string",
+			  "minLength":1
+            },
+            "voiceVlanXlateId": {
+              "type": "string",
+			  "minLength":1
+            }
+          },
+          "required": [
+            "sTag",
+            "voiceSlanXlateId",
+            "voiceVlanXlateId"
+          ]
+        }
+      },
+      "required": [
+        "additionalParams"
+      ]
+    }
+  }
+}

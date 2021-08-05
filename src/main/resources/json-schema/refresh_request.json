@@ -1,0 +1,14 @@
+{
+  "cuid":"aa123456",
+  "serviceOrder":"1234554321",
+  "clli": "GDTPKSLAB01",
+  "deviceIP": "10.0.16.241",
+  "scp": ["1-4-1"],
+  "vendor": "Calix",
+  "model": "C7",
+   "pon": {
+      "ontId":"1",
+      "ontPort":"1"
+  }
+ 
+}

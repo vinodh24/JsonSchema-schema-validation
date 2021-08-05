@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "voice": {
+      "type": "object",
+      "properties": {
+        "additionalParams": {
+          "type": "object",
+          "properties": {
+            "aor": {
+              "type": "string",
+			  "minLength":1
+            }
+          },
+          "required": [
+            "aor"
+          ]
+        }
+      },
+      "required": [
+        "additionalParams"
+      ]
+    }
+  }
+}

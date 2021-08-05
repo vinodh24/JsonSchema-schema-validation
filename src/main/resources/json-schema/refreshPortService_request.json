@@ -1,0 +1,13 @@
+{
+  "cuid":"aa123456",
+  "clli":"dfdfd",
+  "serviceOrder":"1234554321",
+  "deviceIP": ".0.16.241",
+  "scp": ["1-1-1"],
+  "vendor": "Adtran",
+  "model": "TA 5000",
+   "pon": {
+      "ontId":"1",
+      "ontPort":"1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+   "$schema":"http://json-schema.org/draft-04/schema#",
+   "type":"object",
+   "properties":{
+      "video":{
+         "type":"object",
+         "properties":{
+            "videoCos":{
+               "type":"string",
+               "minLength":1
+            }
+         },
+         "required":[
+            "videoCos"
+         ]
+      }
+   },
+   "required":[
+      "video"
+   ]
+}

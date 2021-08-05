@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "video": {
+      "type": "object",
+      "properties": {
+        "additionalParams": {
+          "type": "object",
+          "properties": {
+            "rtraid": {
+              "type": "string",
+			  "minLength":1
+            }
+          },
+          "required": [
+            "rtraid"
+          ]
+        }
+      },
+      "required": [
+        "additionalParams"
+      ]
+    }
+  }
+}

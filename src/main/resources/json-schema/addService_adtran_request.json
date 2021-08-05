@@ -1,0 +1,54 @@
+ {
+    "cuid": "aa123456",
+    "clli": "GDTPKSLAB01",
+    "deviceIP": "10.0.1.0",
+    "scp": ["1-4-1"],
+    "serviceOrder": "12345",
+    "vendor": "Calix",
+    "model": "C7",
+    "assignedTech": "Gpon",
+    "telephoneNumber": "",
+    "cos": "fdsf",
+    "pon": {
+        "ontId": "3",
+        "ontPort": "1",
+        "additionalParams": {
+            "registrationId": ""
+        }
+    },
+    "data": {
+        "isData": false,
+        "sTag": "922",
+        "dataCos": "80/10",
+        "cTag": "888",
+        "additionalParams": {
+            "remoteVPI": "",
+            "remoteVCI": "",
+            "stsPortName": "",
+            "dataSlanXlateId": "",
+            "dataVlanXlateId": ""
+        }
+    },
+    "video": {
+        "isVideo": false,
+        "videoCos": "6HD6SD",
+        "additionalParams": {
+            "sTag": "",
+            "cTag": "",
+            "videoSlanXlateId": "",
+            "videoVlanXlateId": ""
+        }
+    },
+    "voice": {
+        "isVoice": true,
+        "crv": "N1-1-IG1-1503",
+        "type": "TDM",
+        "additionalParams": {
+            "sTag": "",
+            "voiceSlanXlateId": "",
+            "voiceVlanXlateId": "",
+            "interfaceGroupName": "",
+            "slotVoice": ""
+        }
+    }
+}

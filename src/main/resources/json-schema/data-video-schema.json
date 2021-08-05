@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "sTag": {
+          "type": "string"
+        },
+        "cTag": {
+          "type": "string"
+        },
+        "dataCos": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sTag",
+        "cTag",
+        "dataCos"
+      ]
+    },
+    "video": {
+      "type": "object",
+      "properties": {
+        "sTag": {
+          "type": "string"
+        },
+        "cTag": {
+          "type": "string"
+        },
+        "videoCos": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "videoCos"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

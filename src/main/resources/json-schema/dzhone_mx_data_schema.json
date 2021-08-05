@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "additionalParams": {
+          "type": "object",
+          "properties": {
+            "dataSlanXlateId": {
+              "type": "string",
+			  "minLength":1
+            },
+            "dataVlanXlateId": {
+              "type": "string",
+			  "minLength":1
+            }
+          },
+          "required": [
+            "dataSlanXlateId",
+            "dataVlanXlateId"
+          ]
+        }
+      },
+      "required": [
+        "additionalParams"
+      ]
+    }
+  }
+}
